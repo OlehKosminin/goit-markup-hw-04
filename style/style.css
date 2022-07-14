@@ -38,7 +38,7 @@ a {
     /* color: #757575; */
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h4,h5{
     margin-top: 0;
         margin-bottom: 0;
 }
@@ -76,9 +76,19 @@ margin-right: auto;
     color: var(--acent-text-color);
 }
 
-.hidden{
-    visibility: hidden;
-}
+.hidden{    
+         position: absolute;
+         width: 1px;
+         height: 1px;
+         margin: -1px;
+         border: 0;
+         padding: 0;
+         white-space: nowrap;
+         clip-path: inset(100%);
+         clip: rect(0 0 0 0);
+         overflow: hidden;    
+        }
+
 
 
 .logo{
@@ -219,11 +229,23 @@ border-bottom: 1px solid #ECECEC;
 /* main */
 /* блок герой */
 .blok {
+
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    );
+    background-image: url(../images/hero\ \(1\).jpg) ;
     background-color: #2F303A;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+    margin-right: auto;
+    margin-left: auto;
+    
     padding-top: 200px;
     padding-bottom: 200px;
-    /* width: 1600px;
-        height: 600px; */
        
 }
 
@@ -337,6 +359,34 @@ border-bottom: 1px solid #ECECEC;
 
 .item-size{
     max-width: 270px;
+}
+
+.item-size::before{
+    content: "";
+    display: block;
+ 
+    height: 120px;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    
+    background-color: #F5F4FA;
+}
+
+.icon-one::before{
+    background-image: url(../images/icon.svg/Group.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../images/icon.svg/clock\ 1.svg);
+}
+
+.icon-diagrama::before {
+    background-image: url(../images/icon.svg/diagram\ 1.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/icon.svg/astronaut\ 1.svg);
 }
 /*  ======== / ЧЕМ МЫ ЗАНИМАЕМСЯ ======= */
 
