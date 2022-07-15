@@ -21,11 +21,7 @@ body {
     font-family: 'Roboto', Helvetica;        
         font-weight: var(--primary-weight-font);
         font-size: 14px;
-        line-height: 1.7;
         letter-spacing: 0.03em;
-
-        border: 1px solid #000000;
-        
 }
 
 
@@ -61,10 +57,12 @@ img {
   height: auto;
 }
 
-.container{
-   padding-left: 15px;
-   padding-right: 15px;
+section{
+    padding-left: 15px;
+        padding-right: 15px;
+}
 
+.container{
 width: 1200px;
 margin-left: auto;
 margin-right: auto;
