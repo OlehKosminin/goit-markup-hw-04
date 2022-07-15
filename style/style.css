@@ -359,7 +359,7 @@ border-bottom: 1px solid #ECECEC;
     max-width: 270px;
 }
 
-.item-size::before{
+/* .item-size::before{
     content: "";
     display: block;
  
@@ -385,7 +385,7 @@ border-bottom: 1px solid #ECECEC;
 
 .icon-astronaut::before {
     background-image: url(../images/icon.svg/astronaut\ 1.svg);
-}
+} */
 /*  ======== / ЧЕМ МЫ ЗАНИМАЕМСЯ ======= */
 
 /* Блок команда */
