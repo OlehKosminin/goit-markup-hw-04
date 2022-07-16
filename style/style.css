@@ -65,7 +65,7 @@ section{
 }
 
 .container{
-width: 1200px;
+max-width: 1200px;
 margin-left: auto;
 margin-right: auto;
 /* text-align: center; */
@@ -589,8 +589,8 @@ padding: 10px;
     padding-top: 60px;
     padding-bottom: 60px;
 
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex;
+    justify-content: flex-start; */
 }
 
 /* .active {
@@ -820,6 +820,7 @@ margin-right: 0;
     margin-right: 50px;
 }
 
-footer{
-    justify-content: flex-start;
+.footer-flex{
+    display: flex;
 }
+
