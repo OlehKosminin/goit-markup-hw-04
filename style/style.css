@@ -195,6 +195,20 @@ display: flex;
     margin-right: 0;
 }
 
+.item-partner{
+    display: block;
+    background-color: #2196F3;
+    width: 100px;
+}
+
+.icon-mail{
+    width: 100px;
+    height: 92px;
+    fill: #a2a;
+    color: tomato;
+}
+
+
 /* .auth-naw .item + .item{
     margin-left: 50px;
     
